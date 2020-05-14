@@ -2,17 +2,17 @@
 A custom node.js boilerplate with register &amp; login, featured on JWT authentication, role base access control, winston logging, mongoDB and simple use 🙂
 
 ## Table of Contents
-- [Prerequisites](##Prerequisistes)
-- [Installation](##Installation)
-- [Quick Start](##Quick-Start)
-- [Run in development](##Run-in-development)
-- [Run in production](##Run-in-production)
-- [Project Structure](##Project-Structure)
-- [Features](##Features)
-  - [Login & Registration](##Login-&-Registration)
-  - [JWT Authentication](##JWT-Authentication)
-  - [Role Base Access Control](##Role-Base-Access-Control)
-  - [CRUD Logging to MongoDB](##CRUD-Logging-to-MongoDB)
+- [Prerequisites](#Prerequisistes)
+- [Installation](#Installation)
+- [Quick Start](#Quick-Start)
+- [Run in development](#Run-in-development)
+- [Run in production](#Run-in-production)
+- [Project Structure](#Project-Structure)
+- [Features](#Features)
+  - [Login & Registration](#Login-&-Registration)
+  - [JWT Authentication](#JWT-Authentication)
+  - [Role Base Access Control](#Role-Base-Access-Control)
+  - [CRUD Logging to MongoDB](#CRUD-Logging-to-MongoDB)
   
 ## Prerequisites
 - [MongoDB](https://www.mongodb.com/)
