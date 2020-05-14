@@ -9,7 +9,6 @@ A custom node.js boilerplate with register &amp; login, featured on JWT authenti
 - [Run in production](#run-in-production)
 - [Project Structure](#project-structure)
 - [Features](#features)
-  - [Login & Registration](#login-&-registration)
   - [JWT Authentication](#jwt-authentication)
   - [Role Base Access Control](#role-base-access-control)
   - [CRUD Logging to MongoDB](#crud-logging-to-mongodb)
