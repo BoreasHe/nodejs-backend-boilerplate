@@ -13,10 +13,10 @@ let logSuccessCase = false; // better to use env variable or winston setting to 
 
 // A middleware to check if the user is premitted to access resources
 canRegister = (req, res, next) => {
-  // check the permission by us accesscontrol library !🤑
+  // check the permission by this awesome syntax from npm package - accesscontrol  !🤑
   const permission = ac.can(req.decoded.userType).createAny('User');
 
-  if (!permission.granted || permission.attributes.indexOf(req.body.accountData.userType) < 0) {
+  if (!permission.granted) {
     // log no premission event trigger
     const message = "No permission to access resources";
     const metadata = { issuer: req.decoded.displayName, action: "register", payload: req.body }
@@ -32,8 +32,6 @@ canRegister = (req, res, next) => {
     next();
   }
 }
-
-
 module.exports = {
   canRegister,
 };
