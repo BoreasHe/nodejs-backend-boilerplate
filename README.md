@@ -2,17 +2,17 @@
 A custom node.js boilerplate with register &amp; login, featured on JWT authentication, role base access control, winston logging, mongoDB and simple use 🙂
 
 ## Table of Contents
-- [Prerequisites](#Prerequisistes)
-- [Installation](#Installation)
-- [Quick Start](#Quick-Start)
-- [Run in development](#Run-in-development)
-- [Run in production](#Run-in-production)
-- [Project Structure](#Project-Structure)
-- [Features](#Features)
-  - [Login & Registration](#Login-&-Registration)
-  - [JWT Authentication](#JWT-Authentication)
-  - [Role Base Access Control](#Role-Base-Access-Control)
-  - [CRUD Logging to MongoDB](#CRUD-Logging-to-MongoDB)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Guide](#guide)
+- [Run in development](#run-in-development)
+- [Run in production](#run-in-production)
+- [Project Structure](#project-structure)
+- [Features](#features)
+  - [Login & Registration](#login-&-registration)
+  - [JWT Authentication](#jwt-authentication)
+  - [Role Base Access Control](#role-base-access-control)
+  - [CRUD Logging to MongoDB](#crud-logging-to-mongodb)
   
 ## Prerequisites
 - [MongoDB](https://www.mongodb.com/)
@@ -237,3 +237,5 @@ To log a message and object to mongoDB, run
 ```js
 logger.info({ message: "Log this message", metadata: { yourObject } });
 ```
+
+Then, in every business logic you implemented in the services, add a logger in it, that's all!
